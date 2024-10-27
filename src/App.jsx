@@ -1,5 +1,6 @@
 import './App.css'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import NavLink from './components/NavLink'
 import Projects from './components/Projects'
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </>
   )
 }
