@@ -9,13 +9,21 @@ export default function NavLink() {
   ];
 
   return (
-    <nav>
-      <h1>Baptiste Szmoniewski</h1>
+    <nav aria-label="Navigation principale">
+    <h1>Baptiste Szmoniewski</h1>
     {navLinks.map((link, index) => (
-      <Link key={index} to={link.to} spy={true} smooth={true} offset={-70} duration={500}>
+      <Link
+        key={index}
+        to={link.to}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        activeClass="active"
+      >
         {link.label}
       </Link>
     ))}
-    </nav>
+  </nav>
   )
 }
