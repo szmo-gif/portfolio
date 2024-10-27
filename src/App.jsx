@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import NavLink from './components/NavLink'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <NavLink />
       <Header />
+      <Skills />
     </>
   )
 }
