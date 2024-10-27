@@ -2,7 +2,6 @@ import { Link } from "react-scroll";
 
 export default function NavLink() {
   const navLinks = [
-    { to: "home", label: "Accueil" },
     { to: "about", label: "À propos" },
     { to: "skills", label: "Compétences" },
     { to: "projects", label: "Projets" },
