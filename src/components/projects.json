@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Riding Cities",
+    "description": "mise en place de l'intégration d'une one page pour promovoir une association de skateurs",
+    "technologies": [
+      "html",
+      "CSS"
+    ],
+    "demoLink": "https://szmo-gif.github.io/oc_projet2/",
+    "codeLink": "https://github.com/szmo-gif/oc_projet2",
+    "image": "../../public/assets/riding-cities.png"
+  },
+  {
+    "name": "Booki",
+    "description": "intégration de la page d'accueil d'un site de location d'hébergement de vacances",
+    "technologies": [
+      "HTML",
+      "CSS"
+    ],
+    "demoLink": "https://szmo-gif.github.io/op_projet3/",
+    "codeLink": "https://github.com/szmo-gif/op_projet3",
+    "image": "../../public/assets/booki.jpg"
+  },
+  {
+    "name": "Ohmyfood",
+    "description": "mise en place d'une application web de menus intéractifs et dynamiques pour des restaurants",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "SASS"
+    ],
+    "demoLink": "https://szmo-gif.github.io/oc_projet4/",
+    "codeLink": "https://github.com/szmo-gif/oc_projet4",
+    "image": "../../public/assets/ohmyfood.jpg"
+  },
+  {
+    "name": "print-it",
+    "description": "mise en place d'un carrousel de photos dynamique et personnalisable pour une entreprise d'imprimerie",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "demoLink": "https://szmo-gif.github.io/print-it-/",
+    "codeLink": "https://github.com/szmo-gif/print-it-",
+    "image": "../../public/assets/print-it.jpg"
+  },
+  {
+    "name": "sophie-bluel",
+    "description": "intégration d'un portfolio de site vitrine pour une architecte avec un système de connexion à un backend intégrer",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "codeLink": "https://github.com/szmo-gif/sophie-bluel",
+    "image": "../../public/assets/sophie-bluel.png"
+  },
+  {
+    "name": "kasa",
+    "description": "intégration d'une application web de logements pour des voyageurs, permettant de trouver des hébergements et des activités dans difftrentes localisations",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "React"
+    ],
+    "codeLink": "https://github.com/szmo-gif/kasa",
+    "image": "../../public/assets/kasa.png"
+  },
+  {
+    "name": "nina-carducci",
+    "description": "optimisation et référencement d'un site vitrine d'une photogrape",
+    "technologies": [
+      "HTML",
+      "Wave",
+      "LightHouse"
+    ],
+    "demoLink": "https://szmo-gif.github.io/nina-carducci/",
+    "codeLink": "https://github.com/szmo-gif/nina-carducci/tree/master",
+    "image": "../../public/assets/nina-carducci.webp"
+  },
+  {
+    "name": "724event",
+    "description": "résolution de bugs et finalisation d'un site vitrine pour une agence évènementielle",
+    "technologies": [
+      "HTML",
+      "CSS"
+    ],
+    "codeLink": "https://github.com/szmo-gif/724event",
+    "image": "../../public/assets/724event.png"
+  },
+  {
+    "name": "ArgentBank",
+    "description": "mise en place d'une application web de gestion de compte bancaire avec un système de connexion à un backend en utilisant Redux",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "React",
+      "Redux"
+    ],
+    "codeLink": "https://github.com/szmo-gif/ArgentBank",
+    "image": "../../public/assets/ArgentBank.jpeg"
+  }
+]
