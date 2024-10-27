@@ -5,6 +5,7 @@ export default function NavLink() {
     { to: "about", label: "À propos" },
     { to: "skills", label: "Compétences" },
     { to: "projects", label: "Projets" },
+    { to: "contact", label: "Contact" },
   ];
 
   return (

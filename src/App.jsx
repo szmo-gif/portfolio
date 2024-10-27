@@ -1,4 +1,5 @@
 import './App.css'
+import Contact from './components/Contact'
 import Header from './components/Header'
 import NavLink from './components/NavLink'
 import Projects from './components/Projects'
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Skills />
       <Projects />
+      <Contact />
     </>
   )
 }
