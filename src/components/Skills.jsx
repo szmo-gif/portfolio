@@ -16,14 +16,16 @@ export default function Skills() {
   return (
     <section id="skills">
       <h2>Mes Compétences</h2>
-      <div>
+      <ul>
         {skills.map((skill, index) => (
-          <div key={index}>
-            <div>{skill.icon}</div>
-            <p>{skill.name}</p>
-          </div>
+          <li key={index}>
+            <figure>
+              <i>{skill.icon}</i>
+              <figcaption>{skill.name}</figcaption>
+            </figure>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }

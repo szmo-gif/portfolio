@@ -4,25 +4,27 @@ export default function Projects() {
   return (
     <section id="projects">
       <h2>Mes Projets</h2>
-      <div>
+      <ul>
         {projects.map((project, index) => (
-          <div key={index}>
+          <li key={index}>
+            <figure>
             <img
               src={project.image}
               alt={`Aperçu de ${project.name}`}
             />
-            <div>
+            <figcaption>
               <h3>{project.name}</h3>
               <p>{project.description}</p>
               <p>Technologies : {project.technologies.join(", ")}</p>
-              <div>
+              <nav>
                 <a href={project.demoLink} target="_blank" rel="noopener noreferrer" >Voir la démo</a>
                 <a href={project.codeLink} target="_blank" rel="noopener noreferrer" >Code Source</a>
-              </div>
-            </div>
-          </div>
+              </nav>
+            </figcaption>
+            </figure>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }
