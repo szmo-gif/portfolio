@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Contact.css';
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -16,7 +17,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact">
+    <section id="contact" className="contact">
       <h2>Contactez-moi</h2>
       {isSubmitted ? (
         <p>Merci pour votre message ! Je vous répondrai dès que possible.</p>
@@ -31,9 +32,10 @@ export default function Contact() {
               value={formData.name}
               onChange={handleInputChange}
               required
+
             />
           </div>
-          <div>
+          <div >
             <label htmlFor="email">Email :</label>
             <input
               type="email"
@@ -44,7 +46,7 @@ export default function Contact() {
               required
             />
           </div>
-          <div>
+          <div >
             <label htmlFor="message">Message :</label>
             <textarea
               id="message"

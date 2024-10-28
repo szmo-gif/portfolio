@@ -1,6 +1,8 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaSass, FaGithub, FaJs } from "react-icons/fa";
 import { SiRedux, SiSwagger } from "react-icons/si";
 
+import "./skills.css";
+
 export default function Skills() {
   const skills = [
     { name: "HTML", icon: <FaHtml5 style={{ color: "#E34F26" }} /> },
@@ -14,7 +16,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills">
+    <section id="skills" className="skills">
       <h2>Mes Compétences</h2>
       <ul>
         {skills.map((skill, index) => (

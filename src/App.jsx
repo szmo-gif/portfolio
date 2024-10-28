@@ -1,10 +1,10 @@
 import './App.css'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import NavLink from './components/NavLink'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
+import Header from './components/header/Header'
+import NavLink from './components/navLink/NavLink'
+import Projects from './components/projects/Projects'
+import Skills from './components/skills/Skills'
 
 function App() {
 
