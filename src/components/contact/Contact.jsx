@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './Contact.css';
 
 export default function Contact() {
+
+  //TODO: package for email
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -23,7 +25,7 @@ export default function Contact() {
         <p>Merci pour votre message ! Je vous répondrai dès que possible.</p>
       ) : (
         <form onSubmit={handleSubmit}>
-          <div>
+          <fieldset>
             <label htmlFor="name">Nom :</label>
             <input
               type="text"
@@ -34,8 +36,8 @@ export default function Contact() {
               required
 
             />
-          </div>
-          <div >
+          </fieldset>
+          <fieldset >
             <label htmlFor="email">Email :</label>
             <input
               type="email"
@@ -45,8 +47,8 @@ export default function Contact() {
               onChange={handleInputChange}
               required
             />
-          </div>
-          <div >
+          </fieldset>
+          <fieldset >
             <label htmlFor="message">Message :</label>
             <textarea
               id="message"
@@ -55,7 +57,7 @@ export default function Contact() {
               onChange={handleInputChange}
               required
             />
-          </div>
+          </fieldset>
           <button type="submit">
             Envoyer
           </button>

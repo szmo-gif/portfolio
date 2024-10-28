@@ -4,6 +4,8 @@ import { SiRedux, SiSwagger } from "react-icons/si";
 import "./skills.css";
 
 export default function Skills() {
+
+  // TODO: move styles to css
   const skills = [
     { name: "HTML", icon: <FaHtml5 style={{ color: "#E34F26" }} /> },
     { name: "CSS", icon: <FaCss3Alt style={{ color: "#1572B6" }} /> },
