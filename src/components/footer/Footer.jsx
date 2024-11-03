@@ -5,8 +5,6 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 function Footer() {
   return (
     <footer className="footer">
-      //TODO: deleate div
-      <div className="footer-content"> 
         <ul className="social-icons">
           <li>
             <a href="#" target="_blank" rel="noopener noreferrer" className="social-icon">
@@ -29,7 +27,6 @@ function Footer() {
         <p>
           &copy; {new Date().getFullYear()} Baptiste Szmoniewski. Tous droits réservés.
         </p>
-      </div>
     </footer>
   );
 }
