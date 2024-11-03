@@ -7,14 +7,14 @@ export default function Skills() {
 
   // TODO: move styles to css
   const skills = [
-    { name: "HTML", icon: <FaHtml5 style={{ color: "#E34F26" }} /> },
-    { name: "CSS", icon: <FaCss3Alt style={{ color: "#1572B6" }} /> },
-    { name: "Sass", icon: <FaSass style={{ color: "#CC6699" }} /> },
-    { name: "JavaScript", icon: <FaJs style={{ color: "#F7DF1E", backgroundColor: "black" }} /> },
-    { name: "React", icon: <FaReact style={{ color: "#61DAFB" }} /> },
-    { name: "Redux", icon: <SiRedux style={{ color: "#764ABC" }} /> },
-    { name: "Swagger", icon: <SiSwagger style={{ color: "#85EA2D" }} /> },
-    { name: "GitHub", icon: <FaGithub style={{ color: "#181717" }} /> },
+    { name: "HTML", icon: <FaHtml5 className="html-icon" /> },
+    { name: "CSS", icon: <FaCss3Alt className="css-icon" /> },
+    { name: "Sass", icon: <FaSass className="sass-icon" /> },
+    { name: "JavaScript", icon: <FaJs className="js-icon" /> },
+    { name: "React", icon: <FaReact className="react-icon" /> },
+    { name: "Redux", icon: <SiRedux className="redux-icon" /> },
+    { name: "Swagger", icon: <SiSwagger className="swagger-icon" /> },
+    { name: "GitHub", icon: <FaGithub className="github-icon" /> },
   ];
 
   return (

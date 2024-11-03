@@ -45,7 +45,34 @@
   }
 }
 
+.html-icon {
+  color: #e44d26;
+}
 
+.css-icon {
+  color: #1572b6;
+}
 
+.sass-icon {
+  color: #cc6699;
+}
 
+.js-icon {
+  color: #f7df1e;
+}
 
+.react-icon {
+  color: #61dafb;
+}
+
+.redux-icon {
+  color: #764abc;
+}
+
+.swagger-icon {
+  color: #007bff;
+}
+
+.github-icon {
+  color: #333;
+}
