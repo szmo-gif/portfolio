@@ -7,20 +7,14 @@ function Footer() {
     <footer className="footer">
         <ul className="social-icons">
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://github.com/szmo-gif" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaGithub />
             </a>
           </li>
 
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <a href="https://linkedin.com/in/baptiste-szmoniewski" target="_blank" rel="noopener noreferrer" className="social-icon">
               <FaLinkedin />
-            </a>
-          </li>
-
-          <li>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <FaTwitter />
             </a>
           </li>
         </ul>
