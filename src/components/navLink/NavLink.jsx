@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import { useState } from "react";
 
 import "./NavLink.css";
 
@@ -10,10 +11,20 @@ export default function NavLink() {
     { to: "contact", label: "Contact" },
   ];
 
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className="nav">
       <h1>Baptiste Szmoniewski</h1>
-      <ul>
+      <button className="menu-toggle" onClick={toggleMenu}>
+        ☰
+      </button>
+      <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
         {navLinks.map((link, index) => (
           <li>
             <Link
