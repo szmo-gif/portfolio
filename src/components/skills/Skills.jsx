@@ -5,7 +5,6 @@ import "./skills.css";
 
 export default function Skills() {
 
-  // TODO: move styles to css
   const skills = [
     { name: "HTML", icon: <FaHtml5 className="html-icon" /> },
     { name: "CSS", icon: <FaCss3Alt className="css-icon" /> },
