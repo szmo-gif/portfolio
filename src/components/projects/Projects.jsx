@@ -21,7 +21,7 @@ export default function Projects() {
                 <p className="project-description">{project.description}</p>
                 <p className="project-technologies">Technologies : {project.technologies.join(", ")}</p>
 
-                <nav className="project-links">
+                <nav>
                   <a href={project.demoLink} target="_blank" rel="noopener noreferrer" >Voir la démo</a>
                   <a href={project.codeLink} target="_blank" rel="noopener noreferrer" >Code Source</a>
                 </nav>
