@@ -1,68 +1,23 @@
-import React, { useState } from 'react';
-import './Contact.css';
+import React from 'react';
+import './contact.css';
 
-export default function Contact() {
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
-  //TODO: package for email
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Formulaire soumis :', formData);
-    setIsSubmitted(true);
-  };
-
+const Contact = () => {
   return (
-    <section id="contact" className="contact">
+    <section className="contact">
       <h2>Contactez-moi</h2>
-      {isSubmitted ? (
-        <p>Merci pour votre message ! Je vous répondrai dès que possible.</p>
-      ) : (
-        <form onSubmit={handleSubmit}>
-          <fieldset>
-            <label htmlFor="name">Nom :</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={formData.name}
-              onChange={handleInputChange}
-              required
-
-            />
-          </fieldset>
-          <fieldset >
-            <label htmlFor="email">Email :</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleInputChange}
-              required
-            />
-          </fieldset>
-          <fieldset >
-            <label htmlFor="message">Message :</label>
-            <textarea
-              id="message"
-              name="message"
-              value={formData.message}
-              onChange={handleInputChange}
-              required
-            />
-          </fieldset>
-          <button type="submit">
-            Envoyer
-          </button>
-        </form>
-      )}
+      <nav>
+        <a href="https://www.facebook.com/baptiste.szmoniewski.9" target="_blank" rel="noopener noreferrer" className="social-icon facebook">
+          <i className="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://www.instagram.com/baptisteszmoniewski/" target="_blank" rel="noopener noreferrer" className="social-icon instagram">
+          <i className="fab fa-instagram"></i> Instagram
+        </a>
+      </nav>
     </section>
   );
-}
+};
+
+export default Contact;
