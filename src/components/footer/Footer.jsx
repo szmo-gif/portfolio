@@ -1,26 +1,24 @@
 import React from 'react';
 import './Footer.css';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import IconNav from '../../ui/IconNav';
 
 function Footer() {
+  const navLinks = [
+    { href: "https://github.com/szmo-gif", icone: " fab fa-github", style: "social-icon" },
+    { href: "https://www.linkedin.com/in/baptiste-szmoniewski/", icone: " fab fa-linkedin", style: "social-icon" },
+  ]
   return (
     <footer className="footer">
-        <ul className="social-icons">
-          <li>
-            <a href="https://github.com/szmo-gif" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <FaGithub />
-            </a>
-          </li>
+      <nav className="social-icons">
+        {navLinks.map((link, index) => (
+          <IconNav key={index} href={link.href} icone={link.icone} style={link.style} />
+        ))}
+      </nav>
 
-          <li>
-            <a href="https://linkedin.com/in/baptiste-szmoniewski" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <FaLinkedin />
-            </a>
-          </li>
-        </ul>
-        <p>
-          &copy; {new Date().getFullYear()} Baptiste Szmoniewski. Tous droits réservés.
-        </p>
+      <p>
+        &copy; {new Date().getFullYear()} Baptiste Szmoniewski. Tous droits réservés.
+      </p>
     </footer>
   );
 }
