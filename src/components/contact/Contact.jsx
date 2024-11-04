@@ -10,10 +10,10 @@ const Contact = () => {
       <h2>Contactez-moi</h2>
       <nav>
         <a href="https://www.facebook.com/baptiste.szmoniewski.9" target="_blank" rel="noopener noreferrer" className="social-icon facebook">
-          <i className="fab fa-facebook"></i> Facebook
+          <i className="fab fa-facebook"></i> 
         </a>
         <a href="https://www.instagram.com/baptisteszmoniewski/" target="_blank" rel="noopener noreferrer" className="social-icon instagram">
-          <i className="fab fa-instagram"></i> Instagram
+          <i className="fab fa-instagram"></i> 
         </a>
       </nav>
     </section>
