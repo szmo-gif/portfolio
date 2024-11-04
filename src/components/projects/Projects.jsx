@@ -22,7 +22,9 @@ export default function Projects() {
                 <p className="project-technologies">Technologies : {project.technologies.join(", ")}</p>
 
                 <nav>
-                  <a href={project.demoLink} target="_blank" rel="noopener noreferrer" >Voir la démo</a>
+                  {project.demoLink &&
+                    <a href={project.demoLink} target="_blank" rel="noopener noreferrer" >Voir la démo</a>
+                  }
                   <a href={project.codeLink} target="_blank" rel="noopener noreferrer" >Code Source</a>
                 </nav>
               </figcaption>
