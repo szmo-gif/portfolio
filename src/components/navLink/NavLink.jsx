@@ -28,7 +28,7 @@ export default function NavLink() {
         {navLinks.map((link, index) => (
           <li>
             <Link
-              href="#"
+              href={`#${link.to}`}
               className="nav-link"
               key={index}
               to={link.to}
