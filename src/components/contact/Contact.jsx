@@ -7,7 +7,7 @@ import IconNav from '../../ui/IconNav';
 
 const Contact = () => {
   const navLinks = [
-    { href: "https://facebook.com/baptiste.szmoniewski", icone: "fab fa-facebook", style: "social-icon facebook"},
+    { href: "https://www.facebook.com/baptiste.szmoniewski.9/", icone: "fab fa-facebook", style: "social-icon facebook"},
     { href: "https://instagram.com/baptiste.szmoniewski", icone: "fab fa-instagram", style: "social-icon instagram"},
   ]
   return (
