@@ -4,11 +4,11 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-  background: linear-gradient(135deg, #007bff, #00d4ff);
-  color: #fff;
+  background: var(--backgroundHeader);
+  color: var(--white);
   text-align: center;
   padding: 2rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow);
   overflow: hidden;
   position: relative;
 
@@ -35,19 +35,19 @@ header {
 
   button {
     padding: 0.8rem 1.5rem;
-    background-color: #fff;
-    color: #007bff;
+    background-color: var(--white);
+    color: var(--primary);
     border: none;
     border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: var(--transition);
 
     &:hover {
-      background-color: #007bff;
-      color: #fff;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      background-color: var(--primary);
+      color: var(--white);
+      box-shadow: var(--shadowHover);
     }
   }
 }

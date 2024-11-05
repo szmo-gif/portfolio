@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #007bff;
-  color: #fff;
+  background-color: var(--primary);
+  color: var(--white);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -21,32 +21,30 @@
 }
 
 .nav li {
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 
   a{
-    color: #fff;
+    color: var(--white);
   }
 }
 
 .nav a:hover {
-  color: #ffeb3b;
+  color: var(--navHover);
   cursor: pointer;
 }
 
-/* Styles pour le bouton de menu burger */
 .menu-toggle {
   display: none;
   font-size: 1.5rem;
   background: none;
   border: none;
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
 }
 
-/* Styles pour les petits écrans */
 @media (max-width: 768px) {
   .nav ul {
     display: none;
@@ -56,7 +54,7 @@
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #007bff;
+    background-color: var(--primary);
     padding: 1rem 0;
     margin: 0;
   }

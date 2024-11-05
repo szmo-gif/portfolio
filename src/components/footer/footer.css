@@ -1,6 +1,6 @@
 .footer {
-  background-color: #007bff;
-  color: #ffffff;
+  background-color: var(--primary);
+  color: var(--white);
   padding: 2rem;
   text-align: center;
   margin: 0 auto;
@@ -11,7 +11,7 @@
 
   p {
     font-size: 0.9rem;
-    color: #e0e0e0;
+    color: var(--white);
     margin-top: 1.5rem;
   }
 }
@@ -22,9 +22,9 @@
 }
 
 .social-icon {
-  color: #ffffff;
+  color: var(--white);
   font-size: 1.5rem;
-  transition: transform 0.3s ease;
+  transition: var(--transition);
 }
 
 .social-icon:hover {
