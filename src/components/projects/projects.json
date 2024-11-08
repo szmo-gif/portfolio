@@ -8,7 +8,7 @@
     ],
     "demoLink": "https://szmo-gif.github.io/oc_projet2/",
     "codeLink": "https://github.com/szmo-gif/oc_projet2",
-    "image": "public/assets/riding-cities.webp"
+    "image": "/public/assets/riding-cities.webp"
   },
   {
     "name": "Booki",
@@ -19,7 +19,7 @@
     ],
     "demoLink": "https://szmo-gif.github.io/op_projet3/",
     "codeLink": "https://github.com/szmo-gif/op_projet3",
-    "image": "public/assets/booki.webp"
+    "image": "/public/assets/booki.webp"
   },
   {
     "name": "Ohmyfood",
@@ -31,7 +31,7 @@
     ],
     "demoLink": "https://szmo-gif.github.io/oc_projet4/",
     "codeLink": "https://github.com/szmo-gif/oc_projet4",
-    "image": "public/assets/ohmyfood.webp"
+    "image": "/public/assets/ohmyfood.webp"
   },
   {
     "name": "print-it",
@@ -43,7 +43,7 @@
     ],
     "demoLink": "https://szmo-gif.github.io/print-it-/",
     "codeLink": "https://github.com/szmo-gif/print-it-",
-    "image": "public/assets/print-it.webp"
+    "image": "/public/assets/print-it.webp"
   },
   {
     "name": "sophie-bluel",
@@ -54,7 +54,7 @@
       "JavaScript"
     ],
     "codeLink": "https://github.com/szmo-gif/sophie-bluel",
-    "image": "public/assets/sophie-bluel.webp"
+    "image": "/public/assets/sophie-bluel.webp"
   },
   {
     "name": "kasa",
@@ -65,7 +65,7 @@
       "React"
     ],
     "codeLink": "https://github.com/szmo-gif/kasa",
-    "image": "public/assets/kasa.webp"
+    "image": "/public/assets/kasa.webp"
   },
   {
     "name": "nina-carducci",
@@ -77,7 +77,7 @@
     ],
     "demoLink": "https://szmo-gif.github.io/nina-carducci/",
     "codeLink": "https://github.com/szmo-gif/nina-carducci/tree/master",
-    "image": "public/assets/nina-carducci.webp"
+    "image": "/public/assets/nina-carducci.webp"
   },
   {
     "name": "724event",
@@ -87,7 +87,7 @@
       "CSS"
     ],
     "codeLink": "https://github.com/szmo-gif/724event",
-    "image": "public/assets/724event.webp"
+    "image": "/public/assets/724event.webp"
   },
   {
     "name": "ArgentBank",
@@ -99,6 +99,6 @@
       "Redux"
     ],
     "codeLink": "https://github.com/szmo-gif/ArgentBank",
-    "image": "public/assets/argentBank.webp"
+    "image": "/public/assets/argentBank.webp"
   }
 ]
