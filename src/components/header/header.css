@@ -14,6 +14,7 @@ header {
 
   p {
     animation: fadeInUp 1s ease-out;
+    max-width: 1000px;
   }
 
   hgroup {
