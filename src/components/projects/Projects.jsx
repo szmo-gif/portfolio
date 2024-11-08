@@ -11,7 +11,7 @@ export default function Projects() {
           <li key={index}>
             <figure>
               <img
-                src={`${import.meta.env.BASE_URL}${project.image.replace('../../public/', '')}`}
+                src={project.image}
                 alt={`Aperçu de ${project.name}`}
               />
 
