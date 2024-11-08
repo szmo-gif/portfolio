@@ -26,11 +26,10 @@ export default function NavLink() {
       </button>
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
         {navLinks.map((link, index) => (
-          <li>
+          <li key={index}>
             <Link
               href={`#${link.to}`}
               className="nav-link"
-              key={index}
               to={link.to}
               spy={true}
               smooth={true}
